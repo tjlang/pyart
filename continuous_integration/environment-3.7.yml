@@ -3,7 +3,8 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.4
+  - python=3.7
+  - gdal
   - numpy
   - scipy
   - matplotlib
@@ -13,3 +14,5 @@ dependencies:
   - trmm_rsl
   - wradlib
   - cartopy
+  - cvxopt
+  - xarray
